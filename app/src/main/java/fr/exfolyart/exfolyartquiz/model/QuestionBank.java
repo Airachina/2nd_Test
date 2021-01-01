@@ -6,7 +6,8 @@ import java.util.List;
 /**
  * Created by Exfolyart on 22/12/2020.
  */
-public class QuestionBank {
+public class QuestionBank
+{
     private List<Question1> mQuestionList;
     private int mNextQuestionIndex;
 
@@ -17,8 +18,10 @@ public class QuestionBank {
 
         mNextQuestionIndex = 0;
     }
-    public Question1 getQuestion(){
-    if (mNextQuestionIndex == mQuestionList.size()){
+    public Question1 getQuestion()
+    {
+    if (mNextQuestionIndex == mQuestionList.size())
+    {
         mNextQuestionIndex = 0;
     }
     return mQuestionList.get(mNextQuestionIndex++);

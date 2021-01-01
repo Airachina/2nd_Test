@@ -5,12 +5,14 @@ import java.util.List;
 /**
  * Created by Exfolyart on 22/12/2020.
  */
-public class Question1 {
+public class Question1
+{
     private String mQuestion;
     private List<String> mChoiceList;
     private int mAnswerIndex;
 
-    public Question1(String question, List<String> choiceList, int answerIndex){
+    public Question1(String question, List<String> choiceList, int answerIndex)
+    {
 
         this.setQuestion(question);
         this.setChoiceList(choiceList);
